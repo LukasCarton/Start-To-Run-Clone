@@ -29,6 +29,8 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Label Text="{Binding Action}" FontSize="50" Margin="15,0,0,0"/>
+            <Label Text="{Binding IntervalCounter}" FontSize="Header" Margin="15,0,0,20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -17,24 +19,55 @@ namespace IntervalRunning.ViewModels
         public ObservableCollection<Interval> Intervals { get; set; }
         public Command StartRunningCommand { get; }
 
-        Stopwatch stopwatch;
+        string action;
+        public string Action
+        {
+            get => action;
+            set
+            {
+                action = value;
+                var args = new PropertyChangedEventArgs(nameof(Action));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
+
+        int intervalCounter;
+        public int IntervalCounter
+        {
+            get => intervalCounter;
+            set
+            {
+                intervalCounter = value;
+                var args = new PropertyChangedEventArgs(nameof(IntervalCounter));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
 
         public IntervalViewModel(List<Interval> selectedIntervals)
         {
+            //Action = "Press start";
+            var assembly = typeof(App).GetTypeInfo().Assembly;
+            Stream audioStream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.BEEP.mp3");
+            var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+            player.Load(audioStream);
+
             Intervals = new ObservableCollection<Interval>(selectedIntervals);
-            stopwatch = new Stopwatch();
             StartRunningCommand = new Command(async() =>
             {
-                int counter = 0;
+                int counter = 1;
                 foreach (Interval interval in Intervals) 
                 {
-                    int time = interval.interval_lopen * 1000;
+                    IntervalCounter = counter;
+                    Action = "Running";
+                    int time = interval.interval_lopen * 10000;
                     await Task.Delay(time);
-                    Debug.WriteLine($"--------- after lopen, counter: {counter}");
-                    time = interval.interval_wandel * 1000;
+                    player.Play(); // => Sign Stop running, start walking
 
+                    Action = "Walking";
+                    time = interval.interval_wandel * 10000;
                     await Task.Delay(time);
-                    Debug.WriteLine($"--------- after wandel, counter: {counter}");
+                    player.Play(); // => Sign Stop walking, start running
+
 
                     counter++;
                 }
