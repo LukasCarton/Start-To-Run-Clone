@@ -59,12 +59,12 @@ namespace IntervalRunning.ViewModels
                 {
                     IntervalCounter = counter;
                     Action = "Running";
-                    int time = interval.interval_lopen * 10000;
+                    int time = interval.interval_lopen * 1000*60;
                     await Task.Delay(time);
                     player.Play(); // => Sign Stop running, start walking
 
                     Action = "Walking";
-                    time = interval.interval_wandel * 10000;
+                    time = interval.interval_wandel * 1000*60;
                     await Task.Delay(time);
                     player.Play(); // => Sign Stop walking, start running
 
