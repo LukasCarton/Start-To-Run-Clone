@@ -12,3 +12,4 @@ D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\Inter
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.pdb
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.csproj.CoreCompileInputs.cache
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\Views\IntervalPage.xaml.g.cs

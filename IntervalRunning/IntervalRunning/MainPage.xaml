@@ -15,9 +15,9 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Start" Command="{Binding StartRunningCommand}"/>
+        <Button Text="Start" Command="{Binding NavigateToIntervalPageCommand}"/>
 
-        <ListView ItemsSource="{Binding Intervals}">
+        <ListView ItemsSource="{Binding Intervals}" SelectedItem="{Binding SelectedInterval}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

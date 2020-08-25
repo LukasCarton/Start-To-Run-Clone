@@ -1,4 +1,5 @@
 ﻿using IntervalRunning.Models;
+using IntervalRunning.Views;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace IntervalRunning.ViewModels
@@ -15,13 +17,26 @@ namespace IntervalRunning.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public Command StartRunningCommand { get; }
+        public Command NavigateToIntervalPageCommand { get; }
 
         public ObservableCollection<Intervals> Intervals { get; set; }
+
+        Intervals selectedInterval;
+        public Intervals SelectedInterval
+        {
+            get => selectedInterval;
+            set
+            {
+                selectedInterval = value;
+                var args = new PropertyChangedEventArgs(nameof(SelectedInterval));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
 
         public MainPageViewModel()
         {
             Intervals = new ObservableCollection<Intervals>();
+            SelectedInterval = null;
             //Load json
             var assembly = typeof(MainPageViewModel).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.intervals.json");
@@ -39,11 +54,28 @@ namespace IntervalRunning.ViewModels
             }
 
 
-            StartRunningCommand = new Command(() =>
+            NavigateToIntervalPageCommand = new Command(async () =>
             {
                 Console.WriteLine("----------- Start tracking... ------------");
-
+                if (SelectedInterval != null)
+                {
+                    Console.WriteLine($"week: {SelectedInterval.week}, day: {SelectedInterval.day}");
+                    await NavigateToIntervalPage();
+                }
+                else
+                {
+                    Console.WriteLine("----------- Nothing selected... ------------");
+                }
             });
+        }
+
+        private async Task NavigateToIntervalPage()
+        {
+            var intervalVM = new IntervalViewModel(SelectedInterval.intervals);
+            var intervalPage = new IntervalPage();
+            intervalPage.BindingContext = intervalVM;
+
+            await Application.Current.MainPage.Navigation.PushAsync(intervalPage);
         }
     }
 }
