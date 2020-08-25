@@ -1,0 +1,12 @@
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\bin\Debug\netstandard2.0\IntervalRunning.deps.json
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\bin\Debug\netstandard2.0\IntervalRunning.dll
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\bin\Debug\netstandard2.0\ref\IntervalRunning.dll
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\bin\Debug\netstandard2.0\IntervalRunning.pdb
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.csprojAssemblyReference.cache
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.AssemblyInfoInputs.cache
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.AssemblyInfo.cs
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.dll
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\ref\IntervalRunning.dll
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning\obj\Debug\netstandard2.0\IntervalRunning.pdb

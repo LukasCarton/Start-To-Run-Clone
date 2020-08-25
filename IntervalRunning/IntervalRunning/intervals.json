@@ -1,0 +1,682 @@
+[
+  {
+    "week": 1,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 3
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 1,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 4,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 3,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 3
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 2,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 6,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 8,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 8,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 8,
+        "interval_wandel": 1
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 7,
+        "interval_wandel": 1
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 15,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 5,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 15,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 15,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 15,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 15,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 20,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "day": 1,
+    "intervals": [
+      {
+        "interval_lopen": 20,
+        "interval_wandel": 2
+      },
+      {
+        "interval_lopen": 10,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "day": 2,
+    "intervals": [
+      {
+        "interval_lopen": 30,
+        "interval_wandel": 2
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "day": 3,
+    "intervals": [
+      {
+        "interval_lopen": 32,
+        "interval_wandel": 0
+      }
+    ]
+  }
+]
