@@ -474,3 +474,4 @@ D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\Inter
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Gebruikers\Lukas\Documenten\Ontspanning\IntervalRunning\IntervalRunning\IntervalRunning.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

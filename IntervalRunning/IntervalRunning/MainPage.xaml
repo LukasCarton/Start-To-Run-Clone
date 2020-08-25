@@ -16,6 +16,27 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Button Text="Start" Command="{Binding StartRunningCommand}"/>
+
+        <ListView ItemsSource="{Binding Intervals}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="week: "/>
+                                        <Span Text="{Binding week}"/>
+                                        <Span Text=" day: "/>
+                                        <Span Text="{Binding day}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>

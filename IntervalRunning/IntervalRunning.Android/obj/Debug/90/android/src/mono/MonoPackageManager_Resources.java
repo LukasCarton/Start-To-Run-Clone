@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"IntervalRunning.Android.dll",
 		"FormsViewGroup.dll",
 		"IntervalRunning.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
