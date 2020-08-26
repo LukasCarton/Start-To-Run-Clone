@@ -8,7 +8,7 @@
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Start Running!" Command="{Binding StartRunningCommand}"/>
+            <Button Text="Start Running!" Command="{Binding StartRunningCommand}"  IsEnabled="{Binding IsEnabled}"/>
             <ListView ItemsSource="{Binding Intervals}" SelectionMode="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -29,8 +29,8 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Label Text="{Binding Action}" FontSize="50" Margin="15,0,0,0"/>
-            <Label Text="{Binding IntervalCounter}" FontSize="Header" Margin="15,0,0,20"/>
+            <Label Text="{Binding Action}" FontSize="50" Padding="15,0,0,0"/>
+            <Label Text="{Binding IntervalCounter}" FontSize="Header" Padding="15,0,0,20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -43,8 +43,24 @@ namespace IntervalRunning.ViewModels
             }
         }
 
+        /// <summary>
+        /// Disable button when pressed
+        /// </summary>
+        bool isEnabled;
+        public bool IsEnabled
+        {
+            get => isEnabled;
+            set
+            {
+                isEnabled = value;
+                var args = new PropertyChangedEventArgs(nameof(IsEnabled));
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
+
         public IntervalViewModel(List<Interval> selectedIntervals)
         {
+            IsEnabled = true;
             //Action = "Press start";
             var assembly = typeof(App).GetTypeInfo().Assembly;
             Stream audioStream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.BEEP.mp3");
@@ -54,23 +70,26 @@ namespace IntervalRunning.ViewModels
             Intervals = new ObservableCollection<Interval>(selectedIntervals);
             StartRunningCommand = new Command(async() =>
             {
+                IsEnabled = false;
                 int counter = 1;
                 foreach (Interval interval in Intervals) 
                 {
                     IntervalCounter = counter;
                     Action = "Running";
-                    int time = interval.interval_lopen * 1000*60;
+                    int time = interval.interval_lopen * 1000 * 60;
                     await Task.Delay(time);
                     player.Play(); // => Sign Stop running, start walking
 
                     Action = "Walking";
-                    time = interval.interval_wandel * 1000*60;
+                    time = interval.interval_wandel * 1000 * 60;
                     await Task.Delay(time);
                     player.Play(); // => Sign Stop walking, start running
 
-
                     counter++;
                 }
+
+                // end
+                Action = "End";
             });
         }
     }
